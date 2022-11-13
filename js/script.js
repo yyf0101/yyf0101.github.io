@@ -47,7 +47,7 @@ new THREE.OBJLoader().load('https://assets.codepen.io/127738/heart_2.obj',obj =>
 let positions = [];
 const geometry = new THREE.BufferGeometry();
 const material = new THREE.LineBasicMaterial({
-  color: 0xffffff
+  color: 0xFFC0CB     //心脏构成颜色
 });
 const lines = new THREE.LineSegments(geometry, material);
 group.add(lines);
